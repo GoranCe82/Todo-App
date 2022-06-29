@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#app {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+#app div {
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 20px;
+    width: 400px;
+    height: auto;
+
+}
+.done {
+    text-decoration: line-through;
+}
+form label {
+    display: inline-block;
+    padding: 7px 0;
+}
+form input {
+    padding: 5px 30px;
+    border: none ;
+    border-bottom: 1px solid grey;
+}
+ol li {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 15px;
+    padding: 10px 5px;
+    border-radius: 5px;
+    list-style-type: none;
+    box-shadow: 0 0 5px grey;
+    position: relative;
+}
+li input {
+    margin-right: 10px;
+}
+li span {
+    padding-right: 10px;
+}
+li button {
+    padding: 5px 10px;
+    font-size: 0.7rem;
+    position: absolute;
+    right: 5px;
+}
+button {
+    padding: 7px 30px;
+    background-color: blue;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+.btn {
+    margin-top: 10px;
+}
+.first {
+    margin-left: 20px;
+}
